@@ -1,0 +1,63 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2.5em;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  background-image: url("http://www.advocate-online.net/wp-content/uploads/2019/11/the-shining_-1024x575.jpg");
+  background-size: 33%;
+}
+
+img {
+  opacity: 0.3;
+}
+
+img:hover {
+  opacity: 1;
+}
+
+p1 {
+  margin: 2.5em;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+div {
+  opacity: 0.6;
+  width: 450px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: movingColor;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes movingColor {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: yellow;
+    left: 400px;
+    top: 0px;
+  }
+  50% {
+    background-color: blue;
+    left: 800px;
+    top: 0px;
+  }
+  75% {
+    background-color: green;
+    left: 400px;
+    top: 0px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
