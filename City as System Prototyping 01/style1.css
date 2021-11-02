@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(109, 53, 0);
+  text-align: center;
+  margin: auto;
+}
+
+#appleNYC {
+  padding: 5em;
+}
+
+#title {
+  -webkit-text-stroke: 2px rgb(255, 199, 147);
+  color: rgb(206, 117, 0);
+  border-radius: 50px;
+  margin: 0em;
+  font-size: 4em;
+  padding: 1.5em;
+}
+
+#text {
+  -webkit-text-stroke: 1px rgb(206, 117, 0);
+  color: rgb(255, 199, 147);
+  font-size: 1.5em;
+  padding: 1.5em;
+  margin: 2em;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border: 0px dotted rgb(200, 255, 255);
+  padding: 2em;
+  margin: 2em;
+  font-size: 1.4em;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 400px;
+  background-color: rgb(200, 255, 255);
+  color: rgb(0, 176, 189);
+  text-align: center;
+  border-radius: 16px;
+  padding: 10px 10px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
